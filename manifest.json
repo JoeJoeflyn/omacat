@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "id": "io.github.joejoeflyn.omacat",
-  "name": "OmaCat",
+  "name": "Omacat",
   "version": "1.0.0",
   "author": "JoeJoeflyn",
   "license": "Apache-2.0",
-  "description": "A cat that runs faster when your CPU works harder. Inspired by OmaCat for Mac.",
+  "description": "A cat that runs faster when your CPU works harder. Inspired by Omacat for Mac.",
   "repository": "https://github.com/JoeJoeflyn/omacat",
   "kinds": ["bar-widget"],
   "entryPoints": {
     "barWidget": "BarWidget.qml"
   },
   "barWidget": {
-    "displayName": "OmaCat",
+    "displayName": "Omacat",
     "description": "Animated running cat that speeds up with CPU usage.",
     "category": "System",
     "allowMultiple": false,

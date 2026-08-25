@@ -4,7 +4,7 @@ import Quickshell.Io
 import qs.Commons
 import qs.Ui
 
-// OmaCat — a cat that runs faster when CPU is busy.
+// Omacat — a cat that runs faster when CPU is busy.
 // 5 frames cycled at a speed proportional to CPU load.
 // Idle CPU = slow stroll, high CPU = sprint.
 BarWidget {

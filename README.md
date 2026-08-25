@@ -1,10 +1,10 @@
 # Omacat
 
-A cat that runs faster when your CPU works harder. Inspired by OmaCat for Mac.
+A cat that runs faster when your CPU works harder. Inspired by Omacat for Mac.
 
 Remember the cat that ran across your macOS menu bar? Now it lives in your Omarchy bar.
 
-![OmaCat](preview.png)
+![Omacat](preview.png)
 
 ## Install
 
