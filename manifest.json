@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.joejoeflyn.runcat",
+  "name": "RunCat",
+  "version": "1.0.0",
+  "author": "JoeJoeflyn",
+  "license": "Apache-2.0",
+  "description": "A cat that runs faster when your CPU works harder. Inspired by RunCat for Mac.",
+  "repository": "https://github.com/JoeJoeflyn/runcat",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "RunCat",
+    "description": "Animated running cat that speeds up with CPU usage.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

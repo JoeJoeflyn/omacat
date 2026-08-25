@@ -1,0 +1,27 @@
+# RunCat
+
+A cat that runs faster when your CPU works harder. Inspired by RunCat for Mac.
+
+Remember the cat that ran across your macOS menu bar? Now it lives in your Omarchy bar.
+
+## Install
+
+```sh
+omarchy plugin add https://github.com/JoeJoeflyn/runcat.git --enable
+```
+
+## Usage
+
+The cat runs at a speed proportional to your CPU usage — slow stroll when idle, sprint when busy. Click to open `btop`.
+
+## Configure
+
+```sh
+omarchy bar move io.github.joejoeflyn.runcat --section right
+```
+
+## Remove
+
+```sh
+omarchy plugin remove io.github.joejoeflyn.runcat --yes
+```
