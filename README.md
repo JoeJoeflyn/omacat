@@ -1,4 +1,4 @@
-# OmaCat
+# Omacat
 
 A cat that runs faster when your CPU works harder. Inspired by OmaCat for Mac.
 
