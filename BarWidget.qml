@@ -4,12 +4,12 @@ import Quickshell.Io
 import qs.Commons
 import qs.Ui
 
-// RunCat — a cat that runs faster when CPU is busy.
+// OmaCat — a cat that runs faster when CPU is busy.
 // 5 frames cycled at a speed proportional to CPU load.
 // Idle CPU = slow stroll, high CPU = sprint.
 BarWidget {
   id: root
-  moduleName: "io.github.joejoeflyn.runcat"
+  moduleName: "io.github.joejoeflyn.omacat"
 
   property int cpuPercent: 0
   property int frameIndex: 0
@@ -37,7 +37,7 @@ BarWidget {
   }
 
   IpcHandler {
-    target: "io.github.joejoeflyn.runcat"
+    target: "io.github.joejoeflyn.omacat"
 
     function refresh(): void {
       root.broadcast("refresh")
