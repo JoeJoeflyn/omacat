@@ -4,6 +4,8 @@ A cat that runs faster when your CPU works harder. Inspired by OmaCat for Mac.
 
 Remember the cat that ran across your macOS menu bar? Now it lives in your Omarchy bar.
 
+![OmaCat](preview.png)
+
 ## Install
 
 ```sh
