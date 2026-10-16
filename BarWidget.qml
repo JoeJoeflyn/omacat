@@ -1,4 +1,5 @@
 import QtQuick
+import QtQuick.Effects
 import Quickshell
 import Quickshell.Io
 import qs.Commons
@@ -85,12 +86,23 @@ BarWidget {
         height: Style.bar.iconCanvas
 
         Image {
+          id: catImage
           anchors.centerIn: parent
           width: parent.width
           height: parent.height
           source: Qt.resolvedUrl("assets/cat_" + root.frameIndex + ".png")
           fillMode: Image.PreserveAspectFit
           smooth: false
+          // Kept as a hidden layer so the effect can sample it as a texture.
+          visible: false
+          layer.enabled: true
+        }
+
+        MultiEffect {
+          anchors.fill: catImage
+          source: catImage
+          colorization: 1.0
+          colorizationColor: button.foreground
         }
       }
     }
